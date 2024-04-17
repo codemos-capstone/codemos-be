@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/CodeMos</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="CodeMos@codemos.site" uuid="d1553e9d-ccce-454d-a6a0-a7b6be051e94">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://codemos.site:3306/CodeMos</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
