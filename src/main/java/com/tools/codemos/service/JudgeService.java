@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 public class JudgeService {
 
     private final RestTemplate restTemplate;
-    private static final String url = "http://localhost:3000/score";
+    private static final String url = "https://distinctive-odele-codemos.koyeb.app/score";
 
     public JudgeResultResponseDTO judgeCode(String code) {
         System.out.println("code = " + code);
